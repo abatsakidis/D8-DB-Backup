@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/abatsakidis/d8_db_backup.svg?branch=master)](https://travis-ci.org/abatsakidis/d8_db_backup)
 [![License](https://poser.pugx.org/okwinza/cloudflare-api/license)](https://packagist.org/packages/okwinza/cloudflare-api)
 
 ## Description

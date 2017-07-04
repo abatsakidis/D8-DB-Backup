@@ -12,6 +12,10 @@ $password = "123"; //Change to whatever you want your password to be
 
 $changelog = "CHANGELOG.txt";
 
+$app_root = "";
+ 
+$site_path = "";
+
 if (file_exists($changelog)) {
 	$lines = file($changelog);
 }
@@ -64,7 +68,7 @@ else
 	//IF THE FORM WAS NOT SUBMITTED - SHOW FORM
         ?><form method="post">
 		         <?php 
-		               echo "PHP Database Backup Script For Drupal 7"."<br>"; 
+		               echo "PHP Database Backup Script For Drupal 8"."<br>"; 
 			           echo "Copyright (c) 2017"."<br><br>"; 
 					   if (file_exists($changelog)) {echo "Drupal Version: <strong>" . $lines[1]."</strong><br><br>";}
 			     ?>
